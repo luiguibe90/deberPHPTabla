@@ -112,15 +112,13 @@ if (isset($_POST["accion"]) && ($_POST["accion"] == "Agregar")) {
             </nav>
         </header>
         <div class="clearfix"></div>
-
         <div class="content-wrapper">
             <div class="container-fluid">
                 <div class="row mt-3">
                     <div class="col-lg-8">
                         <div class="card">
                             <div class="card-body">
-                                <form id="forma" name="forma" method="post" action="index.php">
-                                    
+                                <form id="forma" name="forma" method="post" action="index.php">                                    
                                     <h5 class="card-title">Productos Registrados</h5>
                                     <div class="table-responsive">
                                         <table>
@@ -212,9 +210,7 @@ if (isset($_POST["accion"]) && ($_POST["accion"] == "Agregar")) {
                 </div>
             </div>
         </div>
-
     </div>
-
     <!--   <footer class="footer">
         <div class="container">
             <div class="text-center">
