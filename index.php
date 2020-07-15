@@ -67,7 +67,7 @@ if (isset($_POST["accion"]) && ($_POST["accion"] == "Agregar")) {
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>PHP Tablas</title>
+    <title>Master PC</title>
 
     <link rel="icon" href="./images/logodep.png" type="image/x-icon">
 
@@ -95,7 +95,7 @@ if (isset($_POST["accion"]) && ($_POST["accion"] == "Agregar")) {
             <div class="brand-logo ">
                 <a href="index.html">
                     <img src="./images/Logo_ESPE.png" class="logo-icon" alt="logo icon">
-                    <h5 class="logo-text">Php Tablas</h5>
+                    <h5 class="logo-text">Master PC</h5>
                 </a>
             </div>
             <ul class="sidebar-menu do-nicescrol ">
@@ -120,15 +120,16 @@ if (isset($_POST["accion"]) && ($_POST["accion"] == "Agregar")) {
                         <div class="card">
                             <div class="card-body">
                                 <form id="forma" name="forma" method="post" action="index.php">
+                                    
+                                    <h5 class="card-title">Productos Registrados</h5>
                                     <div class="table-responsive">
                                         <table>
                                             <tr>
                                                 <td scope="col" style="width: 1010px;">&nbsp;</td>
-                                                <th><input type="button" name="eliminar"class=" btn btn-light btn-round px-5 " value="Eliminar" onclick="eliminarProducto();"></th>
+                                                <th><input type="button" name="eliminar"class=" btn btn-light btn-round px-4 " value="Eliminar" onclick="eliminarProducto();"></th>
                                             </tr>
                                         </table>
                                     </div>
-                                    <h5 class="card-title">Productos Registrados</h5>
                                     <div class="table-responsive">
                                         <table class="table table-hover">
                                             <thead>
